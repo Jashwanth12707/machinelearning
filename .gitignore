@@ -1,0 +1,70 @@
+# =========================
+# Python environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+**/env/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDEs and editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# ML model artifacts
+# =========================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# =========================
+# Training outputs
+# =========================
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+checkpoints/
+
+# =========================
+# Data files
+# =========================
+# Uncomment if you don't want datasets in GitHub
+# data/
+# datasets/
+# *.csv
+# *.parquet
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
